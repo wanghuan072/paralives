@@ -5,7 +5,7 @@
 export const seoConfig = {
   domain: 'paralives.wiki',
   fullDomain: 'https://paralives.wiki',
-  siteName: 'Paralives Hub',
+  siteName: 'Paralives Wiki',
   /** 分享图绝对 URL；可替换为 https://paralives.wiki/images/og-default.jpg */
   defaultOgImage: '/images/logo.webp',
   defaults: {
@@ -14,7 +14,7 @@ export const seoConfig = {
       'Complete Paralives hub: 11-topic wiki with icons, walkthroughs, mods library, EA roadmap, town map, simulator tools, and start guide with system requirements.',
     keywords:
       'Paralives, Paralives game, Paralives wiki, Paralives guides, Paralives mods, Paralives simulator, Paralives release date, Paralives Steam, Early Access',
-    author: 'Paralives Hub',
+    author: 'Paralives Wiki',
     type: 'website',
   },
   priorities: {
