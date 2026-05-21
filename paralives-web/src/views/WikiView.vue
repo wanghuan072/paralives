@@ -25,7 +25,7 @@
           <li v-for="cat in wikiCategories" :key="cat.slug">
             <RouterLink :to="`/wiki/${cat.slug}`" class="wiki-hub-card">
               <div class="wiki-hub-card-media">
-                <img :src="cat.imageUrl" :alt="cat.imageAlt" width="480" height="260" loading="lazy" />
+                <img :src="cat.imageUrl" :alt="cat.imageAlt" loading="lazy" />
               </div>
               <div class="wiki-hub-card-body">
                 <h2>{{ cat.title }}</h2>

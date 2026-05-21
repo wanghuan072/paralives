@@ -365,7 +365,6 @@ const heroVideoRef = ref(null)
 // public/video/hero-bg.mp4 — 勿写静态 src，避免 Vite 构建时当作模块解析
 const heroVideoSrc = `${import.meta.env.BASE_URL}video/hero-bg.mp4`
 
-// Hero 背景视频：可见时播放、离开视口/切标签页时暂停，减轻卡顿与耗电
 let heroObserver = null
 let heroOnVisibilityChange = null
 
@@ -417,7 +416,6 @@ onUnmounted(() => {
   }
   heroVideoRef.value?.pause()
 })
-
 
 const quickLinks = [
   {
@@ -479,7 +477,7 @@ const hotGuides = guides
     meta: g.tags?.slice(1).join(' · ') || g.publishDate || 'Guide',
     to: `/guides/${g.addressBar}`,
     alt: g.imageAlt,
-    imageUrl: g.imageUrl || imgCover,
+    imageUrl: g.imageUrl,
   }))
 
 const wikiTopics = [
@@ -581,7 +579,7 @@ const featuredMods = mods
     desc: m.description,
     tag: m.tags?.[0] ?? 'Mod',
     to: `/mods/${m.addressBar}`,
-    imageUrl: m.imageUrl || imgCover,
+    imageUrl: m.imageUrl,
     imageAlt: m.imageAlt,
   }))
 

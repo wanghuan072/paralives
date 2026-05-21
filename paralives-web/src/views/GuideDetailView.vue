@@ -35,8 +35,6 @@
               <img
                 :src="imgSm"
                 alt=""
-                width="40"
-                height="40"
                 class="guide-aside-icon"
                 aria-hidden="true"
               />
@@ -78,7 +76,7 @@
   <article v-else class="guide-detail-page guide-detail-page--missing">
     <div class="container">
       <div class="guide-not-found">
-        <img :src="imgSm" alt="" width="40" height="40" aria-hidden="true" />
+        <img :src="imgSm" alt="" aria-hidden="true" />
         <h1>Guide not found</h1>
         <p>This walkthrough does not exist or was moved.</p>
         <RouterLink to="/guides" class="btn btn-primary">Back to guides</RouterLink>

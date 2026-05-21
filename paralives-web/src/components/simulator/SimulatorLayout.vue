@@ -41,6 +41,8 @@
 
 <script setup>
 import { RouterLink } from 'vue-router'
+import '../../assets/simulator.css'
+import '../../assets/simulator-tools.css'
 
 defineProps({
   title: { type: String, required: true },

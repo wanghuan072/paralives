@@ -285,6 +285,10 @@ img {
   .hero-bg {
     background: linear-gradient(135deg, var(--color-mint-deep) 0%, var(--color-sage) 50%, var(--color-peach) 100%);
   }
+
+  .hero-deco {
+    animation: none;
+  }
 }
 
 .hero-grid {

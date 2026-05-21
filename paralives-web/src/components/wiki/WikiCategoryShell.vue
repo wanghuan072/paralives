@@ -30,6 +30,7 @@
 
 <script setup>
 import { RouterLink } from 'vue-router'
+import '../../assets/wiki-pages.css'
 
 defineProps({
   title: { type: String, required: true },
