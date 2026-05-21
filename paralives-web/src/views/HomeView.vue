@@ -24,15 +24,16 @@
       <span class="hero-deco hero-deco--3" aria-hidden="true"></span>
       <div class="container">
         <div class="hero-content">
-          <span class="hero-badge">✦ Unofficial player hub · Early Access May 25, 2026</span>
+          <span class="hero-badge">✦ Paralives Wiki · Steam launch May 25, 2026</span>
           <h1 id="hero-heading">
-            <span class="title-gradient">Paralives</span>
-            Wiki — Paralives Game Wiki, Guides &amp; Mods
+            <span class="title-gradient">Paralives Wiki</span>
+            — Game Wiki, Guides, Mods &amp; Tools
           </h1>
           <p class="hero-lead">
-            Unofficial help for the <strong>Paralives</strong> life sim: release date and roadmap on
-            Steam, system requirements, eleven wiki topics, player guides, community mods, and the
-            <strong>Paralives Simulator</strong> to plan your first Early Access save before launch day.
+            The <strong>Paralives Wiki</strong> on paralives.wiki is your player hub for the
+            <strong>Paralives</strong> life sim: this <strong>Paralives Wiki</strong> covers Steam
+            release timing, system requirements, eleven reference topics, walkthroughs, mods, and the
+            <strong>Paralives Simulator</strong> so you can plan your first save before launch day.
           </p>
           <div class="hero-tags" aria-label="Paralives game tags">
             <ul>
@@ -56,8 +57,11 @@
         <div class="quick-content">
           <header class="section-head">
             <span class="section-label">Jump in</span>
-            <h2 id="quick-heading" class="title-gradient">Paralives Quick Paths</h2>
-            <p>Pick a door — each link goes to a finished section on this site.</p>
+            <h2 id="quick-heading" class="title-gradient">Paralives Wiki Quick Paths</h2>
+            <p>
+              Six doors into the Paralives Wiki — each link opens a finished section of this game
+              wiki at paralives.wiki.
+            </p>
           </header>
           <ul class="quick-grid">
             <li v-for="(item, i) in quickLinks" :key="item.title">
@@ -82,7 +86,10 @@
           <header class="section-head section-head--light">
             <span class="section-label section-label--light">Walkthroughs</span>
             <h2 id="guides-heading" class="title-gradient title-gradient--light">Paralives Guides Highlights</h2>
-            <p>Featured Paralives game walkthroughs for Steam Early Access — updated as we publish more.</p>
+            <p>
+              Featured walkthroughs on the Paralives Wiki for the Steam launch window — updated as we
+              publish more.
+            </p>
           </header>
           <ul v-if="hotGuides.length" class="guides-grid">
             <li v-for="guide in hotGuides" :key="guide.to">
@@ -117,8 +124,9 @@
             <span class="section-label">Wiki</span>
             <h2 id="database-heading" class="title-gradient">Paralives Wiki Database</h2>
             <p>
-              Eleven Paralives wiki pages — talents, vibes, emotions, needs, careers, build tools, and
-              more. Each article notes day-one Steam Early Access vs later roadmap features.
+              The Paralives Wiki database lists eleven topics — talents, vibes, emotions, needs,
+              careers, build tools, and more. Each Paralives Wiki article notes day-one Steam content
+              vs later roadmap features.
             </p>
           </header>
           <div class="database-layout">
@@ -172,7 +180,10 @@
           <header class="section-head">
             <span class="section-label">Community</span>
             <h2 id="mods-heading" class="title-gradient">Paralives Mods Highlights</h2>
-            <p>Highlighted Paralives mods and community packs — full listings on the Mods hub.</p>
+            <p>
+              Highlighted mods on the Paralives Wiki — community packs with full listings on the Mods
+              hub.
+            </p>
           </header>
           <ul v-if="featuredMods.length" class="mods-list">
             <li v-for="mod in featuredMods" :key="mod.slug">
@@ -203,8 +214,11 @@
         <div class="about-content">
           <header class="section-head">
             <span class="section-label">Our Story</span>
-            <h2 id="about-heading" class="title-gradient">About Paralives Hub</h2>
-            <p>What the game is, what this site offers, and why we built it for players like you.</p>
+            <h2 id="about-heading" class="title-gradient">About the Paralives Wiki</h2>
+            <p>
+              What Paralives is, what this Paralives Wiki offers, and why we built the wiki for
+              players like you.
+            </p>
           </header>
           <div class="about-blocks">
             <article class="about-row">
@@ -222,8 +236,8 @@
                 </p>
                 <p>
                   The game is developed by Paralives Studio, led by Alex Massé, with a small team and
-                  years of community-backed development. Early Access on PC and Mac is planned for
-                  <strong>May 25, 2026</strong>, with roughly two years in EA before a full 1.0
+                  years of community-backed development. Steam launch on PC and Mac is planned for
+                  <strong>May 25, 2026</strong>, with roughly two years in preview before a full 1.0
                   release. The team has pledged <strong>no paid DLC</strong> — only free updates —
                   which matters if you are tired of buying pets, seasons, or build packs separately in
                   other games.
@@ -235,12 +249,12 @@
                   layered outfits, and personality setup. <strong>Live Mode</strong> is where your
                   Parafolks find jobs, manage needs and emotions, build relationships, pay bills, age,
                   and explore town spots like shops, restaurants, and the museum. Modding tools and
-                  Workshop support are planned for EA; pets, weather, cars, and gardening are slated
-                  to arrive during Early Access.
+                  Workshop support are planned for launch; pets, weather, cars, and gardening are slated
+                  to arrive in later Steam updates.
                 </p>
                 <ul class="about-facts">
-                  <li>EA price around $39.99 USD — likely to rise slowly as content is added</li>
-                  <li>Not a day-one Sims replacement — scope is still growing in Early Access</li>
+                  <li>Launch price around $39.99 USD — likely to rise slowly as content is added</li>
+                  <li>Not a day-one Sims replacement — scope still grows through Steam updates</li>
                   <li>Build and Paramaker are strong early; Live Mode is the area still being polished</li>
                   <li>A good fit if you value fair pricing, mods, and deep creative tools</li>
                 </ul>
@@ -248,24 +262,24 @@
             </article>
             <article class="about-row about-row--reverse">
               <figure class="about-row-media">
-                <img src="/images/about-02.webp" alt="Paralives Hub — player guides and wiki" width="480" height="260" />
+                <img src="/images/about-02.webp" alt="Paralives Wiki — player guides and database" width="480" height="260" />
               </figure>
               <div class="about-row-body">
-                <h3>What Is Paralives Hub?</h3>
+                <h3>What Is the Paralives Wiki?</h3>
                 <p>
-                  Paralives Hub is a <strong>fan-made</strong> wiki and guide site built by players,
-                  for players. We are not the developers, not the storefront, and not the main
-                  community encyclopedia — we are an extra home base when you want clear, practical
-                  help without digging through scattered posts and outdated threads.
+                  The <strong>Paralives Wiki</strong> at paralives.wiki is a <strong>fan-made</strong>
+                  game wiki and guide site built by players, for players. This Paralives Wiki is not
+                  the developers or the storefront — it is a focused Paralives Wiki home when you want
+                  clear, practical answers without digging through scattered posts and outdated threads.
                 </p>
                 <p>
-                  We built this site because Early Access can feel like a wall of questions. What
-                  actually ships on day one? How do talents differ from vibes? When do wants reset?
-                  Our <RouterLink to="/start">Start Here</RouterLink> page walks through the three modes;
-                  the <RouterLink to="/wiki">wiki</RouterLink> breaks down eleven systems with tables
-                  and game icons; <RouterLink to="/updates">Updates</RouterLink> tracks the official
-                  roadmap; and the <RouterLink to="/simulator">Simulator</RouterLink> helps you plan
-                  before you spend an evening in-game.
+                  We built the Paralives Wiki because a Steam launch can feel like a wall of questions.
+                  What actually ships on day one? How do talents differ from vibes? When do wants reset?
+                  The Paralives Wiki <RouterLink to="/start">Start Here</RouterLink> page walks through
+                  the three modes; the <RouterLink to="/wiki">wiki hub</RouterLink> breaks down eleven
+                  systems with tables and game icons; <RouterLink to="/updates">Updates</RouterLink>
+                  tracks the official roadmap; and the <RouterLink to="/simulator">Simulator</RouterLink>
+                  helps you plan before you spend an evening in-game.
                 </p>
                 <p>
                   Our goal is to save you time before and after launch. Whether you are deciding to
@@ -282,10 +296,10 @@
                   players, not replace official channels.
                 </p>
                 <ul class="about-facts">
-                  <li>Start Here + wiki articles for talents, emotions, careers, build tools, and more</li>
-                  <li>Town map and EA feature lists aligned with public development updates</li>
-                  <li>Simulator for planning — does not replace in-game Paramaker</li>
-                  <li>Unofficial fan content — verify after each patch</li>
+                  <li>Paralives Wiki: Start Here plus articles for talents, emotions, careers, and build tools</li>
+                  <li>Paralives Wiki town map and launch feature lists from public development updates</li>
+                  <li>Paralives Wiki Simulator for planning — does not replace in-game Paramaker</li>
+                  <li>Unofficial Paralives Wiki — verify after each game patch</li>
                 </ul>
               </div>
             </article>
@@ -300,8 +314,11 @@
         <div class="faq-content">
           <header class="section-head">
             <span class="section-label">Questions</span>
-            <h2 id="faq-heading" class="title-gradient">Paralives FAQ</h2>
-            <p>Release date, Steam price, system requirements, mods, and how this fan hub fits in.</p>
+            <h2 id="faq-heading" class="title-gradient">Paralives Wiki FAQ</h2>
+            <p>
+              Release date, Steam price, system requirements, mods, and how this Paralives Wiki fits
+              in.
+            </p>
           </header>
           <ul class="faq-list">
             <li v-for="item in faqItems" :key="item.q">
@@ -322,9 +339,12 @@
           <img src="/images/ico.webp" alt="Community" width="40" height="40" />
           <div>
             <h2 id="footer-cta-heading" class="title-gradient title-gradient--light">
-              Paralives on Steam — Plan Your Early Access
+              Paralives Wiki — Plan Your Steam Launch
             </h2>
-            <p>Start with our Paralives guide, browse the wiki, or plan your first household in the Simulator.</p>
+            <p>
+              Start on the Paralives Wiki with our beginner guide, browse every wiki topic, or plan your
+              first household in the Simulator.
+            </p>
           </div>
           <div class="footer-cta-actions">
             <RouterLink to="/start" class="btn btn-primary">Start Here</RouterLink>
@@ -345,7 +365,7 @@ import mods from '@/data/mods.js'
 /** Steam / official descriptors — genres, modes, and community-facing features */
 const heroGameTags = [
   'Life Simulation',
-  'Early Access',
+  'Steam Launch',
   'Sandbox',
   'Open World',
   'Build Mode',
@@ -585,35 +605,35 @@ const featuredMods = mods
 const faqItems = [
   {
     q: 'When is Paralives coming out on Steam?',
-    a: 'Early Access launches May 25, 2026 on Steam for Windows and Mac. The team targets about two years in EA before a full 1.0 release, with free updates and no paid DLC.',
+    a: 'Steam launch is May 25, 2026 for Windows and Mac. The team targets about two years in preview before a full 1.0 release, with free updates and no paid DLC. The Paralives Wiki Updates page tracks roadmap changes.',
   },
   {
     q: 'How much does Paralives cost on Steam?',
-    a: 'The planned Early Access price is around $39.99 USD, with the team noting it may rise slowly as content is added. Check the Steam store page for the latest price before you buy or pre-order.',
+    a: 'The planned launch price is around $39.99 USD, with the team noting it may rise slowly as content is added. Check the Steam store page for the latest price before you buy or pre-order.',
   },
   {
     q: 'What are the Paralives system requirements?',
-    a: 'Official PC and Mac specs are listed on our Start Here page and on Steam. As a Unity life sim with open-world town travel, a mid-range GPU and enough RAM help — verify the store page before launch day.',
+    a: 'Official PC and Mac specs are on the Paralives Wiki Start Here page and on Steam. As a Unity life sim with open-world town travel, a mid-range GPU and enough RAM help — verify the store page before launch day.',
   },
   {
     q: 'What is on the Paralives Wiki?',
-    a: 'Eleven topics: talents, vibes, skills, stats, emotions, needs & wants, Parafolks & genetics, build tools, careers, relationships, and modding. Each page explains day-one Steam Early Access vs later roadmap features.',
+    a: 'The Paralives Wiki covers eleven topics: talents, vibes, skills, stats, emotions, needs & wants, Parafolks & genetics, build tools, careers, relationships, and modding. Each Paralives Wiki page explains day-one Steam content vs later roadmap features.',
   },
   {
-    q: 'Where should a new Paralives player start?',
-    a: 'Use our Start Here walkthrough, then Paralives Guides for mode tips. Open the wiki when you need a specific system (emotions, careers, or build tools).',
+    q: 'Where should a new Paralives player start on the wiki?',
+    a: 'Open the Paralives Wiki Start Here walkthrough, then Paralives Guides for mode tips. Use the Paralives Wiki hub when you need a specific system (emotions, careers, or build tools).',
   },
   {
-    q: 'What is the Paralives Simulator?',
-    a: 'On-site planning tools only — filter official EA features, allocate personality points, preview Paramaker colors, and roll session challenges. Nothing imports into the game.',
+    q: 'What is the Paralives Simulator on this wiki?',
+    a: 'Paralives Wiki planning tools only — filter official launch features, allocate personality points, preview Paramaker colors, and roll session challenges. Nothing imports into the game.',
   },
   {
-    q: 'Are Paralives mods supported at launch?',
-    a: 'In-game modding tools and Steam Workshop are on the official day-one list. Our Paralives Mods section lists community packs when creators publish links.',
+    q: 'Are Paralives mods covered on the wiki?',
+    a: 'Yes — the Paralives Wiki modding article explains tools and Workshop. The Paralives Wiki Mods section lists community packs when creators publish links.',
   },
   {
-    q: 'Is Paralives Hub official?',
-    a: 'No — we are a fan site, not Paralives Studio or Steam. For legal details and announcements use paralives.com and the storefront; we summarize what matters to everyday players.',
+    q: 'Is the Paralives Wiki official?',
+    a: 'No — the Paralives Wiki is a fan site, not Paralives Studio or Steam. For legal details and announcements use paralives.com and the storefront; the Paralives Wiki summarizes what matters to everyday players.',
   },
 ]
 </script>

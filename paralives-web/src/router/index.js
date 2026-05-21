@@ -26,11 +26,11 @@ const router = createRouter({
       name: 'home',
       component: () => import('../views/HomeView.vue'),
       meta: {
-        title: 'Paralives — Game Wiki, Guides, Mods, Simulator & Map',
+        title: 'Paralives Wiki — Game Wiki, Guides, Mods, Simulator & Map',
         description:
-          'Complete Paralives Wiki: wiki with icons, walkthroughs, mods library, EA roadmap, town map, simulator tools, and start guide with system requirements.',
+          'Paralives Wiki at paralives.wiki: eleven-topic game wiki, walkthroughs, mods library, Steam launch roadmap, town map, simulator tools, and start guide with system requirements.',
         keywords:
-          'Paralives, Paralives game, Paralives wiki, Paralives guides, Paralives mods, Paralives simulator, Paralives release date, Paralives Steam, Early Access',
+          'Paralives Wiki, Paralives wiki, Paralives game, Paralives guides, Paralives mods, Paralives simulator, Paralives release date, Paralives Steam',
       },
     },
     {

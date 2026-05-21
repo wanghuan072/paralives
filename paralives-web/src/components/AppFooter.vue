@@ -11,8 +11,8 @@
             <span class="footer-brand-name">Paralives Wiki</span>
           </div>
           <p class="footer-brand-desc">
-            A complete Paralives resource: in-depth wiki, player guides, mods library, Early Access
-            roadmap, town map, and Simulator tools to plan your next save on Steam.
+            The Paralives Wiki — in-depth game wiki, player guides, mods library, Steam launch
+            roadmap, town map, and Simulator tools to plan your next save.
           </p>
         </div>
 
