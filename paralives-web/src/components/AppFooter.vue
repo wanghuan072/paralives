@@ -44,8 +44,7 @@
 
       <div class="footer-bottom">
         <p class="footer-copy">
-          &copy; {{ year }} Paralives Hub. All rights reserved. Updated:
-          <time datetime="2026-05-19">May 19, 2026</time>.
+          &copy; {{ year }} paralives.wiki. All rights reserved.
         </p>
         <p class="footer-disclaimer">
           Paralives Hub is an independent player resource for informational purposes. Paralives and
