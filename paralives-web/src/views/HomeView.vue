@@ -6,6 +6,8 @@
         <video
           ref="heroVideoRef"
           class="hero-bg-video"
+          src="/video/hero-bg.mp4"
+          fetchpriority="high"
           muted
           loop
           playsinline
@@ -14,9 +16,7 @@
           preload="metadata"
           poster="https://placehold.co/1920x900/5a8f6e/ffdac1?text="
           tabindex="-1"
-        >
-          <source :src="heroVideoSrc" type="video/mp4" />
-        </video>
+        ></video>
       </div>
       <div class="hero-grid" aria-hidden="true"></div>
       <span class="hero-deco hero-deco--1" aria-hidden="true"></span>
@@ -362,8 +362,6 @@ const heroGameTags = [
 
 const heroSectionRef = ref(null)
 const heroVideoRef = ref(null)
-// public/video/hero-bg.mp4 — 勿写静态 src，避免 Vite 构建时当作模块解析
-const heroVideoSrc = `${import.meta.env.BASE_URL}video/hero-bg.mp4`
 
 let heroObserver = null
 let heroOnVisibilityChange = null

@@ -1,7 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
-import guides from '@/data/guides.js'
-import mods from '@/data/mods.js'
 import { seoConfig } from '@/seo/config.js'
 import {
   applyDocumentSeo,
@@ -377,9 +375,10 @@ const router = createRouter({
   ],
 })
 
-router.afterEach((to) => {
+router.afterEach(async (to) => {
   if (to.name === 'guide-detail') {
     const slug = to.params.slug
+    const { default: guides } = await import('@/data/guides.js')
     const g = getByAddressBar(guides, slug)
     const path = g ? `/guides/${g.addressBar}` : to.path
     if (!g) {
@@ -415,6 +414,7 @@ router.afterEach((to) => {
 
   if (to.name === 'mod-detail') {
     const slug = to.params.slug
+    const { default: mods } = await import('@/data/mods.js')
     const m = getByAddressBar(mods, slug)
     const path = m ? `/mods/${m.addressBar}` : to.path
     if (!m) {
