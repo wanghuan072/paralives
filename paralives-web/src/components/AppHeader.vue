@@ -7,7 +7,7 @@
             src="/images/logo.webp"
             alt="Paralives Hub logo"
           />
-          <span class="brand-text"><span class="title-gradient">Paralives</span>Hub</span>
+          <span class="brand-text"><span class="title-gradient">Paralives</span>Wiki</span>
         </RouterLink>
 
         <button

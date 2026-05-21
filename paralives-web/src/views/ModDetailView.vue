@@ -70,7 +70,6 @@
   <article v-else class="mod-detail-page mod-detail-page--missing">
     <div class="container">
       <div class="mod-not-found">
-        <img src="https://placehold.co/40x40/ffdac1/6B9B7B?text=" alt="" width="40" height="40" />
         <h1>Mod not found</h1>
         <p>This listing does not exist or was removed.</p>
         <RouterLink to="/mods" class="btn btn-primary">Back to mods</RouterLink>

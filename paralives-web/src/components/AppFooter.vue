@@ -6,9 +6,9 @@
           <div class="footer-brand-head">
             <img
               src="/images/logo.webp"
-              alt=""
+              alt="Paralives Wiki logo"
             />
-            <span class="footer-brand-name">Paralives Hub</span>
+            <span class="footer-brand-name">Paralives Wiki</span>
           </div>
           <p class="footer-brand-desc">
             A complete Paralives resource: in-depth wiki, player guides, mods library, Early Access

@@ -28,7 +28,7 @@ const router = createRouter({
       meta: {
         title: 'Paralives — Game Wiki, Guides, Mods, Simulator & Map',
         description:
-          'Complete Paralives hub: wiki with icons, walkthroughs, mods library, EA roadmap, town map, simulator tools, and start guide with system requirements.',
+          'Complete Paralives Wiki: wiki with icons, walkthroughs, mods library, EA roadmap, town map, simulator tools, and start guide with system requirements.',
         keywords:
           'Paralives, Paralives game, Paralives wiki, Paralives guides, Paralives mods, Paralives simulator, Paralives release date, Paralives Steam, Early Access',
       },

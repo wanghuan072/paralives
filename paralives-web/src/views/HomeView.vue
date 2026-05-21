@@ -27,7 +27,7 @@
           <span class="hero-badge">✦ Unofficial player hub · Early Access May 25, 2026</span>
           <h1 id="hero-heading">
             <span class="title-gradient">Paralives</span>
-            Hub — Paralives Game Wiki, Guides &amp; Mods
+            Wiki — Paralives Game Wiki, Guides &amp; Mods
           </h1>
           <p class="hero-lead">
             Unofficial help for the <strong>Paralives</strong> life sim: release date and roadmap on
