@@ -2,10 +2,10 @@
   <header class="site-header" role="banner">
     <div class="container">
       <div class="header-content">
-        <RouterLink to="/" class="brand" aria-label="Paralives Hub — Home">
+        <RouterLink to="/" class="brand" aria-label="Paralives Wiki — Home">
           <img
             src="/images/logo.webp"
-            alt="Paralives Hub logo"
+            alt="Paralives Wiki logo"
           />
           <span class="brand-text"><span class="title-gradient">Paralives</span>Wiki</span>
         </RouterLink>
