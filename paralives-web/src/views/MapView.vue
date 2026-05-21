@@ -8,7 +8,7 @@
         <div class="page-hero-content">
           <span class="section-label">Live Mode · Town</span>
           <h1 id="map-title" class="title-gradient title-gradient--light">
-            Paralives Town Map &amp; Points of Interest
+            Paralives Map &amp; Points of Interest
           </h1>
           <p>
             A fan-made guide to the <strong>open-world town</strong> in Paralives Early Access — official
@@ -39,6 +39,27 @@
         </nav>
 
         <div class="map-main">
+          <!-- Town map image -->
+          <section id="town-map" class="map-section" aria-labelledby="map-image-heading">
+            <h2 id="map-image-heading">Paralives Interactive Map</h2>
+            <p>
+              Use this overview before you head out in Live Mode — find shops, restaurants, the museum,
+              work locations, and residential areas in the open-world town.
+            </p>
+
+            <figure class="map-image-wrap">
+              <img
+                src="/images/map.webp"
+                alt="Paralives open-world town map showing shops, restaurants, museum, work locations, and residential lots for Early Access"
+                width="960"
+                height="540"
+                loading="lazy"
+                decoding="async"
+              />
+              <figcaption>{{ townMapCaption }}</figcaption>
+            </figure>
+          </section>
+
           <!-- Intro -->
           <section id="overview" class="map-section" aria-labelledby="overview-heading">
             <h2 id="overview-heading">About the open-world town</h2>
@@ -68,27 +89,6 @@
                 not all are “map pins” at launch.
               </li>
             </ul>
-          </section>
-
-          <!-- Town map image -->
-          <section id="town-map" class="map-section" aria-labelledby="map-image-heading">
-            <h2 id="map-image-heading">Town map</h2>
-            <p>
-              Use this overview before you head out in Live Mode — find shops, restaurants, the museum,
-              work locations, and residential areas in the open-world town.
-            </p>
-
-            <figure class="map-image-wrap">
-              <img
-                src="/images/map.webp"
-                alt="Paralives open-world town map showing shops, restaurants, museum, work locations, and residential lots for Early Access"
-                width="960"
-                height="540"
-                loading="lazy"
-                decoding="async"
-              />
-              <figcaption>{{ townMapCaption }}</figcaption>
-            </figure>
           </section>
 
           <!-- POI directory -->
@@ -242,8 +242,8 @@ const townMapCaption =
   'Open-world town overview for Paralives Early Access — shops, venues, and neighborhoods at a glance.'
 
 const toc = [
-  { id: 'overview', label: 'Open-world town' },
   { id: 'town-map', label: 'Town map' },
+  { id: 'overview', label: 'Open-world town' },
   { id: 'venues', label: 'Venues directory' },
   { id: 'town-features', label: 'EA feature phases' },
   { id: 'first-visit', label: 'First visit checklist' },

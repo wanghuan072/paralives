@@ -65,8 +65,8 @@ watch(() => route.path, closeNav)
 
 const navItems = [
   { label: 'Home', path: '/' },
-  { label: 'Start Here', path: '/start' },
   { label: 'Wiki', path: '/wiki' },
+  { label: 'Start Here', path: '/start' },
   { label: 'Guides', path: '/guides' },
   { label: 'Mods', path: '/mods' },
   { label: 'Updates', path: '/updates' },
