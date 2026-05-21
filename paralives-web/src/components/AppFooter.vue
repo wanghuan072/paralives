@@ -5,6 +5,7 @@
         <div class="footer-brand">
           <div class="footer-brand-head">
             <img
+              class="logo-img"
               src="/images/logo.webp"
               alt="Paralives Wiki logo"
             />
@@ -65,6 +66,7 @@ const year = new Date().getFullYear()
 .site-footer {
   position: relative;
   margin-top: auto;
+  contain: layout style;
   background: #12151c;
   color: #c8cdd8;
   padding: 2.75rem 0 1.75rem;
@@ -84,9 +86,9 @@ const year = new Date().getFullYear()
   margin-bottom: 1rem;
 }
 
-.footer-brand-head img {
+.footer-brand-head .logo-img {
   width: 60px;
-  height: auto;
+  height: 60px;
 }
 
 .footer-brand-name {

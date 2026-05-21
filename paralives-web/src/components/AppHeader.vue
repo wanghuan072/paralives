@@ -4,6 +4,7 @@
       <div class="header-content">
         <RouterLink to="/" class="brand" aria-label="Paralives Wiki — Home">
           <img
+            class="logo-img"
             src="/images/logo.webp"
             alt="Paralives Wiki logo"
           />

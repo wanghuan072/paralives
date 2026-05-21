@@ -721,9 +721,13 @@ img {
   transform: scale(1.02);
 }
 
-.brand img {
+.brand img,
+.logo-img {
+  display: block;
   width: 60px;
-  height: auto;
+  height: 60px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 .brand .title-gradient {

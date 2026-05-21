@@ -319,7 +319,7 @@
     <section class="footer-section" aria-labelledby="footer-cta-heading">
       <div class="container">
         <div class="footer-content">
-          <img src="/images/ico.webp" alt="Community" width="40" height="40" />
+          <img src="/images/ico.webp" alt="Community" />
           <div>
             <h2 id="footer-cta-heading" class="title-gradient title-gradient--light">
               Paralives on Steam — Plan Your Launch
@@ -1060,6 +1060,11 @@ const faqItems = [
 }
 
 .footer-content img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  object-fit: contain;
   border-radius: var(--radius-sm);
   border: 3px solid var(--color-peach);
 }
