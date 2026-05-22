@@ -305,11 +305,11 @@ const router = createRouter({
       name: 'map',
       component: () => import('../views/MapView.vue'),
       meta: {
-        title: 'Paralives Town Map — Shops, Museum & EA Venues 2026',
+        title: 'Paralives Map — Paralives Interactive Map & Melino POI 2026',
         description:
-          'Paralives town map: shops, restaurants, museum, work and home lots for Early Access (May 25, 2026) — day-one venues and during-EA additions with player tips.',
+          'Paralives map for Early Access: Paralives Interactive Map of Melino with pan, zoom, and filters for shops, schools, museum, bus stops, and 50–70 lots. Town guide for May 25, 2026.',
         keywords:
-          'Paralives map, town map, open world town, shops, restaurant, museum, points of interest, Early Access 2026, Live Mode',
+          'Paralives map, Paralives Interactive Map, Melino map, town map, interactive map, shops, museum, bus stops, Early Access 2026, Live Mode',
       },
     },
     {

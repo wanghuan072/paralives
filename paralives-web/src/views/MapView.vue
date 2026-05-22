@@ -1,28 +1,39 @@
 <template>
   <article class="map-page" itemscope itemtype="https://schema.org/WebPage">
-    <meta itemprop="name" content="Paralives Town Map — Open World Venues Guide" />
+    <meta itemprop="name" content="Paralives Map — Paralives Interactive Map & Melino POI Guide" />
 
     <section class="page-hero-section page-hero-section--map" aria-labelledby="map-title">
       <span class="section-dots" aria-hidden="true"></span>
       <div class="container">
-        <div class="page-hero-content">
-          <span class="section-label">Live Mode · Town</span>
-          <h1 id="map-title" class="title-gradient title-gradient--light">
-            Paralives Map &amp; Points of Interest
-          </h1>
-          <p>
-            A fan-made guide to the <strong>open-world town</strong> in Paralives Early Access — official
-            venue types from the Development page, what is available on day one, and what is planned
-            during EA. Use this before you explore in Live Mode.
-          </p>
-          <p class="map-hero-meta">
-            Last updated <time datetime="2026-05-19">May 19, 2026</time>
-            · Early Access launch <time datetime="2026-05-25">May 25, 2026</time>
-          </p>
-          <p class="map-hero-source">
-            <strong>Source:</strong> Paralives Studio public Development lists (Live Mode). Paralives Hub
-            is unofficial and not affiliated with the developer.
-          </p>
+        <div class="map-hero-layout">
+          <div class="page-hero-content">
+            <span class="section-label">Live Mode · Town</span>
+            <h1 id="map-title" class="title-gradient title-gradient--light">
+              Paralives Map — Melino Town &amp; Points of Interest
+            </h1>
+            <p>
+              Your <strong>Paralives map</strong> for Early Access — use our
+              <strong>Paralives Interactive Map</strong> to explore <strong>Melino</strong>, the first
+              open world at launch (May 25, 2026). Find shops, schools, the museum, bus stops, and
+              neighborhoods before you play in Live Mode.
+            </p>
+            <p class="map-hero-meta">
+              Last updated <time datetime="2026-05-19">May 19, 2026</time>
+              · Early Access launch <time datetime="2026-05-25">May 25, 2026</time>
+            </p>
+            <p class="map-hero-source">
+              <strong>Source:</strong> Paralives Studio public Development lists (Live Mode). Paralives
+              Wiki is unofficial and not affiliated with the developer.
+            </p>
+          </div>
+          <figure class="map-hero-media">
+            <img
+              src="/images/map-hero.webp"
+              alt="Melino town overview — Paralives Early Access open world map"
+              loading="eager"
+              decoding="async"
+            />
+          </figure>
         </div>
       </div>
     </section>
@@ -39,37 +50,30 @@
         </nav>
 
         <div class="map-main">
-          <!-- Town map image -->
+          <!-- Melino interactive map (data from paralives.wiki.gg) -->
           <section id="town-map" class="map-section" aria-labelledby="map-image-heading">
             <h2 id="map-image-heading">Paralives Interactive Map</h2>
             <p>
-              Use this overview before you head out in Live Mode — find shops, restaurants, the museum,
-              work locations, and residential areas in the open-world town.
+              The <strong>Paralives Interactive Map</strong> below is your pan-and-zoom
+              <strong>Paralives map</strong> of Melino — filter by category and click pins for lot names.
+              Pin data is based on the community map for
+              <a href="https://paralives.wiki.gg/wiki/Melino" target="_blank" rel="noopener noreferrer"
+                >Melino on Paralives Wiki</a
+              >. Four districts: Old Town, Industrial, Mountain, and Countryside (50–70 lots at EA).
             </p>
 
-            <figure class="map-image-wrap">
-              <img
-                src="/images/map.webp"
-                alt="Paralives open-world town map showing shops, restaurants, museum, work locations, and residential lots for Early Access"
-                width="960"
-                height="540"
-                loading="lazy"
-                decoding="async"
-              />
-              <figcaption>{{ townMapCaption }}</figcaption>
-            </figure>
+            <MelinoInteractiveMap />
           </section>
 
           <!-- Intro -->
           <section id="overview" class="map-section" aria-labelledby="overview-heading">
-            <h2 id="overview-heading">About the open-world town</h2>
+            <h2 id="overview-heading">About Paralives Map — Melino</h2>
             <p>
-              Paralives launches into Early Access with an <strong>open world town</strong> you can
-              explore in Live Mode — not a loading screen between lots. Official materials describe
-              venues such as <strong>shops</strong>, <strong>restaurants</strong>, and a
-              <strong>museum</strong>, plus rabbit-hole style <strong>work</strong> for careers. Your
-              household lives on a residential lot; the town is where you shop, socialize, collect, and
-              commute to jobs.
+              <strong>Melino</strong> is the first playable open world in Paralives Early Access — not a
+              loading screen between lots. Official materials describe venues such as
+              <strong>shops</strong>, <strong>restaurants</strong>, and a <strong>museum</strong>, plus
+              rabbit-hole <strong>work</strong> for careers. The town has four districts (Old Town,
+              Industrial, Mountain, Countryside) and roughly 50–70 lots, some public and some residential.
             </p>
             <p>
               Paralives Hub groups those venue types below so you can plan a first session. For the
@@ -93,7 +97,7 @@
 
           <!-- POI directory -->
           <section id="venues" class="map-section" aria-labelledby="venues-heading">
-            <h2 id="venues-heading">Points of interest directory</h2>
+            <h2 id="venues-heading">Paralives Map — Points of Interest</h2>
             <p>
               Each entry ties to an official Early Access bullet where possible. “Day one” and “during
               EA” labels match the Development page.
@@ -132,7 +136,7 @@
 
           <!-- EA town features -->
           <section id="town-features" class="map-section" aria-labelledby="features-heading">
-            <h2 id="features-heading">Town-related features by release phase</h2>
+            <h2 id="features-heading">Paralives Map Features by Release Phase</h2>
             <p>
               Copied from the Live Mode sections on the public Development page. Non-town systems
               (traits, emotions, multiselect, etc.) are omitted here — see
@@ -156,7 +160,7 @@
 
           <!-- First visit -->
           <section id="first-visit" class="map-section" aria-labelledby="visit-heading">
-            <h2 id="visit-heading">First town visit checklist</h2>
+            <h2 id="visit-heading">First Visit on the Paralives Map</h2>
             <p>
               A practical order for your first hour in Live Mode after move-in — aligned with official
               day-one mechanics, not a guaranteed quest line.
@@ -181,7 +185,7 @@
 
           <!-- FAQ -->
           <section id="faq" class="map-section map-faq" aria-labelledby="faq-heading">
-            <h2 id="faq-heading">Town map FAQ</h2>
+            <h2 id="faq-heading">Paralives map FAQ</h2>
             <dl class="map-faq-list">
               <div v-for="item in faq" :key="item.q" class="map-faq-item">
                 <dt>{{ item.q }}</dt>
@@ -192,7 +196,7 @@
 
           <!-- Related -->
           <section id="related" class="map-section map-related" aria-labelledby="related-heading">
-            <h2 id="related-heading">Related guides</h2>
+            <h2 id="related-heading">Beyond the Paralives Map</h2>
             <ul class="map-related-grid">
               <li>
                 <RouterLink to="/start" class="map-related-card">
@@ -233,22 +237,19 @@
 <script setup>
 import { onMounted, onUnmounted } from 'vue'
 import { RouterLink } from 'vue-router'
+import MelinoInteractiveMap from '@/components/map/MelinoInteractiveMap.vue'
 
-const PAGE_URL = 'https://paraliveshub.com/map'
+const PAGE_URL = 'https://paralives.wiki/map'
 const LAST_UPDATED = '2026-05-19'
 
-/** Replace with your map asset: public/images/town-map.jpg */
-const townMapCaption =
-  'Open-world town overview for Paralives Early Access — shops, venues, and neighborhoods at a glance.'
-
 const toc = [
-  { id: 'town-map', label: 'Town map' },
-  { id: 'overview', label: 'Open-world town' },
-  { id: 'venues', label: 'Venues directory' },
-  { id: 'town-features', label: 'EA feature phases' },
-  { id: 'first-visit', label: 'First visit checklist' },
-  { id: 'faq', label: 'FAQ' },
-  { id: 'related', label: 'Related pages' },
+  { id: 'town-map', label: 'Paralives Interactive Map' },
+  { id: 'overview', label: 'About Paralives Map' },
+  { id: 'venues', label: 'Map POI directory' },
+  { id: 'town-features', label: 'Map & EA features' },
+  { id: 'first-visit', label: 'First map visit' },
+  { id: 'faq', label: 'Paralives map FAQ' },
+  { id: 'related', label: 'Related guides' },
 ]
 
 const pois = [
@@ -341,8 +342,12 @@ const townDuringEa = [
 
 const faq = [
   {
-    q: 'Is this the official Paralives town map?',
-    a: 'This page is a player guide on Paralives Hub, not an in-game screen from Paralives Studio. Town layout and labels can change in patches — the venue directory below follows the public Development lists for what is planned at and after Early Access launch (May 25, 2026).',
+    q: 'Is this the official Paralives map?',
+    a: 'This Paralives map is a player guide on Paralives Wiki, not an in-game screen from Paralives Studio. The Paralives Interactive Map uses community Melino pin data from paralives.wiki.gg; layout and labels can change in patches.',
+  },
+  {
+    q: 'How do I use the Paralives Interactive Map?',
+    a: 'On this Paralives map page: scroll to zoom, drag to pan, tick categories in the legend to filter pins, and click a marker for the lot name and notes. Use the search box to find a venue by name.',
   },
   {
     q: 'What town venues are available on day one of Early Access?',
@@ -370,9 +375,9 @@ function injectJsonLd() {
         '@type': 'WebPage',
         '@id': `${PAGE_URL}#webpage`,
         url: PAGE_URL,
-        name: 'Paralives Town Map & Points of Interest — Early Access Guide',
+        name: 'Paralives Map — Paralives Interactive Map & Melino Points of Interest',
         description:
-          'Unofficial Paralives town map guide: open-world venues, shops, restaurants, museum, work, and EA release phases. Fan reference for May 25, 2026 Early Access.',
+          'Paralives map for Early Access with a Paralives Interactive Map of Melino: shops, schools, museum, bus stops, districts, and venue directory. Fan reference for May 25, 2026 launch.',
         dateModified: LAST_UPDATED,
         isPartOf: {
           '@type': 'WebSite',
@@ -430,6 +435,46 @@ onUnmounted(() => {
 </script>
 
 <style scoped>
+.map-hero-layout {
+  position: relative;
+  z-index: 2;
+  display: grid;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+@media (min-width: 1024px) {
+  .map-hero-layout {
+    grid-template-columns: minmax(0, 1fr) minmax(260px, 38%);
+    gap: 2rem;
+  }
+}
+
+.map-hero-layout .page-hero-content {
+  max-width: none;
+}
+
+.map-hero-media {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.map-hero-media img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: var(--radius-lg);
+  border: 3px solid color-mix(in srgb, var(--color-white) 55%, transparent);
+  box-shadow: var(--shadow-card);
+}
+
+@media (max-width: 1023px) {
+  .map-hero-media {
+    max-width: 420px;
+    margin-inline: auto;
+  }
+}
+
 .map-hero-meta,
 .map-hero-source {
   margin-top: 0.75rem;
